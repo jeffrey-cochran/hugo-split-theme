@@ -75,6 +75,7 @@ body.page-template-page-fullsingle-split {
     width: 50%;
     min-height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
       justify-content: center;
       overflow: auto;
@@ -98,6 +99,22 @@ body.page-template-page-fullsingle-split {
         padding: 40px;
       }
 
+    }
+
+    .split-credit {
+      opacity: 0.4;
+      padding: 20px;
+    
+      p {
+        font-size: 12px;
+        line-height: 14px;
+    
+        a {
+          color: $color-text;
+        }
+    
+      }
+    
     }
 
   }
@@ -351,21 +368,6 @@ body.page-template-page-fullsingle-split {
 //  To edit this credit you can remove the CC3.0 license for only $5 here: https://onepagelove.com/split
 //  this really helps contribute towards us developing more templates and means the world to me!
 //  Cheers, Rob (@robhope)
-
-.split-credit {
-  opacity: 0.4;
-
-  p {
-    font-size: 12px;
-    line-height: 14px;
-
-    a {
-      color: $color-text;
-    }
-
-  }
-
-}
 
 //-------------------------------------------------------------------------------
 // Videos - shout out to my bud https://twitter.com/manuelmoreale for the Ninja skills
